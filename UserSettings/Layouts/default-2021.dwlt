@@ -270,7 +270,6 @@ MonoBehaviour:
     y: 0
     width: 279
     height: 747
-  m_MaxSize: {x: 4000, y: 4000}
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 18}
