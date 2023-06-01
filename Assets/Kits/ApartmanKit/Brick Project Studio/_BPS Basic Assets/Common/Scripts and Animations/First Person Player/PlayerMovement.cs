@@ -119,6 +119,16 @@ namespace SojaExiles
                     keypad.Number(0);
                 }
             }
+            if (Input.GetKeyDown(KeyCode.Return))
+            { 
+                // Code to handle the number Enter key press
+                if (keypad != null)
+                {
+                    keypad.Execute();
+                }
+            }
+
+         
         }
     }
 }
