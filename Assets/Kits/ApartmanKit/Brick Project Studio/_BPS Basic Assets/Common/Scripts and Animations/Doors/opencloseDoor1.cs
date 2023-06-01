@@ -12,9 +12,16 @@ namespace SojaExiles
 		public bool open;
 		public Transform Player;
 
+	    // Reference to the Keypad script
+        public Keypad keypad;
+
+
 		void Start()
 		{
 			open = false;
+
+			// Assign the Keypad script reference
+            keypad = FindObjectOfType<Keypad>();
 		}
 
 		void OnMouseOver()
@@ -27,10 +34,13 @@ namespace SojaExiles
 					{
 						if (open == false)
 						{
-							if (Input.GetMouseButtonDown(0))
-							{
-								StartCoroutine(opening());
-							}
+								// Check the code from the Keypad script
+                            if (keypad != null && keypad.Answer == keypad.Ans.text)
+                            {	
+								print("Open with password");
+								keypad.Execute(); // Call the Execute() method in Keypad script
+                                StartCoroutine(opening());
+                            }
 						}
 						else
 						{
