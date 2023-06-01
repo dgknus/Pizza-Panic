@@ -6,9 +6,9 @@ using UnityEngine.UI;
 public class Keypad : MonoBehaviour
 {
  
-[SerializeField] private Text Ans;
+[SerializeField] public Text Ans;
 
-private string Answer = "123456";
+public string Answer = "123456";
 
 public void Number(int number){
 
@@ -21,7 +21,6 @@ public void Execute(){
     if(Ans.text == Answer){
 
          Ans.text = "Correct     ";
-
     }
     else{
 
