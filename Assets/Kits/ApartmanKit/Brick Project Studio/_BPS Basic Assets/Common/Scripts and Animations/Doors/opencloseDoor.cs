@@ -34,6 +34,8 @@ namespace SojaExiles
 					{
 						if (open == false)
 						{	
+							 if (gameObject.name == "Door.L" || gameObject.name == "Door.R") // Added condition to check object name
+                        {
 								// Check the code from the Keypad script
                             if (keypad != null && keypad.Answer == keypad.Ans.text)
                             {	
@@ -41,6 +43,12 @@ namespace SojaExiles
 								keypad.Execute(); // Call the Execute() method in Keypad script
                                 StartCoroutine(opening());
                             }
+							
+						}
+							else if (Input.GetMouseButtonDown(0))
+								{
+									StartCoroutine(opening());
+								}
 					
 						}
 						else
