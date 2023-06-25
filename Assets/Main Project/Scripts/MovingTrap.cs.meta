@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Main Project/Scripts/MovingTrap.cs.meta
 guid: e8299bd01f589ef49a19d766628d400e
+=======
+guid: 5604039b8cd567c47a724d6b21d3e13f
+>>>>>>> main:Assets/MainProject/Scripts/MovingTrap.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

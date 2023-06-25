@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Main Project/Scripts/CollisionDetection.cs.meta
 guid: 9df777377647aa3469235aed0d2c5b71
+=======
+guid: 20e53cbff6828fb4c8fdbbc495a87b46
+>>>>>>> main:Assets/MainProject/Scripts/CollisionDetection.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

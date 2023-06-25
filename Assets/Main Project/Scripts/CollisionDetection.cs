@@ -8,6 +8,7 @@ public class CollisionDetection : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+<<<<<<< HEAD:Assets/Main Project/Scripts/CollisionDetection.cs
         if (other.gameObject.tag == "Trap") {
 
             
@@ -15,6 +16,16 @@ public class CollisionDetection : MonoBehaviour
 
         }
         
+=======
+        if (other.gameObject.tag == "Trap")
+        {
+
+
+            Destroy(other.gameObject);
+
+        }
+
+>>>>>>> main:Assets/MainProject/Scripts/CollisionDetection.cs
     }
 
 }

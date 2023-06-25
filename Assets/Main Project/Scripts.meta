@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Main Project/Scripts.meta
+<<<<<<<< HEAD:Assets/Main Project/Scripts.meta
 guid: 76ade85923be2d740bf60c9abc5c84d4
+========
+guid: f9f46408b648a014d8c0c10ab56712c9
+>>>>>>>> main:Assets/Main Project/Scenes.meta
+=======
+guid: 92bcaa8d23b2fe24d80c681ce8bea58a
+>>>>>>> main:Assets/MainProject/Scripts.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
