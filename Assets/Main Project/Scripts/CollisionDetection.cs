@@ -10,7 +10,7 @@ public class CollisionDetection : MonoBehaviour
     {
         if (other.gameObject.tag == "Trap") {
 
-            print("Carpýsma");
+            
             Destroy(other.gameObject);
 
         }
