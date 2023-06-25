@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 62
+  controlID: 73
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 63
+  controlID: 74
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 64
+  controlID: 75
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Kits/ExtraHouseKit/House Interior/Materials
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Kits/ExtraHouseKit/House Interior/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\asus.LAPTOP-P7VQK9Q4\OneDrive\Belgeler\GitHub\Pizza-Panic
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 119.80002}
-    m_SelectedIDs: 0ea90000
-    m_LastClickedID: 43278
-    m_ExpandedIDs: 000000000ca9000000ca9a3b
+    scrollPos: {x: 0, y: 135.80002}
+    m_SelectedIDs: 30cb0000
+    m_LastClickedID: 52016
+    m_ExpandedIDs: 0000000066a800006ea80000baa90000bea90000c4a90000c8a90000d2a900002ecb000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -387,7 +387,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -412,7 +412,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 268.80002}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
@@ -487,10 +487,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 1116.4}
-      m_SelectedIDs: 0e700000
-      m_LastClickedID: 28686
-      m_ExpandedIDs: 0efbffff425d000054610000d46100000a65000094670000906c00003a72000042770000f87a0000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 30cb0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 0891feff0efbffff2e60000054610000906c00008e6d0000c2760000d2780000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -547,8 +547,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -100, y: -25.600006}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: -100, y: -25.600006}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -739,9 +739,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.1793352, y: 9.4268265, z: 1.7492354}
+    m_Target: {x: -3.2536361, y: 9.003111, z: 6.4388185}
     speed: 2
-    m_Value: {x: 1.1793383, y: 9.4268265, z: 1.7492299}
+    m_Value: {x: -3.2536352, y: 9.003111, z: 6.4388185}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -788,13 +788,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.002212463, y: -0.37335974, z: -0.00090431026, w: 0.92773163}
+    m_Target: {x: -0.029085664, y: 0.03818229, z: -0.0011172994, w: -0.99889463}
     speed: 2
-    m_Value: {x: -0.0022137181, y: -0.37195116, z: -0.0009009504, w: 0.9282493}
+    m_Value: {x: -0.033560887, y: 0.05015648, z: -0.0016919322, w: -0.9981759}
   m_Size:
-    m_Target: 2.3576725
+    m_Target: 2.4637678
     speed: 2
-    m_Value: 2.3576725
+    m_Value: 2.4637678
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -870,8 +870,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -393.75998
     m_HBaseRangeMax: 393.75998
-    m_VBaseRangeMin: -180.64
-    m_VBaseRangeMax: 180.64
+    m_VBaseRangeMin: -189.04001
+    m_VBaseRangeMax: 189.04001
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -888,11 +888,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 21
+      y: 0
       width: 984.39996
-      height: 451.6
+      height: 472.6
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 492.19998, y: 225.8}
+    m_Translation: {x: 492.19998, y: 236.3}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -900,9 +900,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -492.19998
-      y: -225.8
+      y: -236.3
       width: 984.39996
-      height: 451.6
+      height: 472.6
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1230.5, y: 590.75}
