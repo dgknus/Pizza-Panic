@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class RotatingTrap : MonoBehaviour
 {
-    [SerializeField] Transform[] Positions;
     public float rotationSpeed = 100.0f;
    
     // Start is called before the first frame update
@@ -18,5 +17,7 @@ public class RotatingTrap : MonoBehaviour
     {
 
         transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);
+
+
     }
 }
