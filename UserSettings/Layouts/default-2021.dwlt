@@ -8,7 +8,7 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 26
+  controlID: 141
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 27
+  controlID: 193
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 28
+  controlID: 194
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Kits/ExtraHouseKit/House Interior/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Kits/ExtraHouseKit/House Interior/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\asus.LAPTOP-P7VQK9Q4\OneDrive\Belgeler\GitHub\Pizza-Panic
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f4a80000
-    m_LastClickedID: 43252
-    m_ExpandedIDs: 00000000f6a80000f8a80000faa80000fca80000fea8000000a9000000ca9a3b
+    m_SelectedIDs: caaa0000
+    m_LastClickedID: 43722
+    m_ExpandedIDs: 0000000070590000725900007c590000c2aa000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f4a80000f6a80000f8a80000faa80000fca80000fea8000000a90000
+    m_ExpandedIDs: 0000000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -387,7 +387,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -488,9 +488,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 5e84fffff0faffff
+      m_SelectedIDs: 0877ffff
+      m_LastClickedID: -35064
+      m_ExpandedIDs: 80faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -739,9 +739,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.46568853, y: 8.916822, z: 5.317727}
+    m_Target: {x: -2.8505518, y: 8.755303, z: 5.4576035}
     speed: 2
-    m_Value: {x: -0.46568853, y: 8.916822, z: 5.317727}
+    m_Value: {x: -2.8505516, y: 8.755303, z: 5.457605}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -788,13 +788,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.045596097, y: 0.0022036294, z: -0.000105642604, w: -0.9990056}
+    m_Target: {x: -0.06321511, y: -0.10538858, z: 0.006707976, w: -0.9924454}
     speed: 2
-    m_Value: {x: -0.045594018, y: -0.00079335494, z: 0.00003114448, w: -0.9989597}
+    m_Value: {x: -0.06320195, y: -0.10687202, z: 0.006802466, w: -0.99223876}
   m_Size:
     m_Target: 2.4637678
     speed: 2
-    m_Value: 2.3576725
+    m_Value: 2.4637678
   m_Ortho:
     m_Target: 0
     speed: 2
