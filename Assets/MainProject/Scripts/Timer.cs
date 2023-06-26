@@ -11,6 +11,8 @@ public class Timer : MonoBehaviour
     [SerializeField] private float currentTime;
     [SerializeField] private float duration;
 
+    [SerializeField] public int pizzaNum;
+
     public GameObject healthBarContainer; // Reference to the HealthBarContainer GameObject
 
     void Start()
@@ -44,6 +46,7 @@ public class Timer : MonoBehaviour
     private void UpdateHealthBarFromTimer(float currentTime)
     {
         int visiblePizzas =  1 + Mathf.FloorToInt(currentTime / 60); // Calculate the number of pizzas to be visible based on elapsed time
+        pizzaNum = visiblePizzas;
         UpdateHealthBar(visiblePizzas); // Call the existing function to update the health bar with the updated pizza count
     }
 
@@ -59,4 +62,6 @@ public class Timer : MonoBehaviour
                 pizza.SetActive(false); // Disable the pizza GameObject
         }
     }
+
+  
 }
