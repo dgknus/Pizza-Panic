@@ -7,12 +7,10 @@ namespace SojaExiles
 {
 	public class opencloseDoor : MonoBehaviour
 	{
-        [SerializeField] bool locked;
+
 		public Animator openandclose;
 		public bool open;
 		public Transform Player;
-
-        [SerializeField] CubeOrderPuzzle cop;
 
 		// Reference to the Keypad script
        public Keypad keypad;
@@ -24,7 +22,6 @@ namespace SojaExiles
 
 			 // Assign the Keypad script reference
             keypad = FindObjectOfType<Keypad>();
-
 		}
 
 		void OnMouseOver()
@@ -35,13 +32,7 @@ namespace SojaExiles
 					float dist = Vector3.Distance(Player.position, transform.position);
 					if (dist < 15)
 					{
-
-						if(locked && cop.inOrder)
-						{
-							locked = false;
-						}
-
-						if (open == false && !locked)
+						if (open == false)
 						{	
 							 if (gameObject.name == "Door.L" || gameObject.name == "Door.R") // Added condition to check object name
                         {
