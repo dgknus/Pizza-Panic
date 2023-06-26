@@ -8,7 +8,7 @@ public class CubeOrderPuzzle : MonoBehaviour
 
     void Start()
     {
-        cubes = new GameObject[5];
+        cubes = new GameObject[7];
 
         for (int i = 0; i < transform.childCount; i++)
         {
