@@ -14,7 +14,7 @@ public class CollisionDetection : MonoBehaviour
             if(k > -3)
             {
 
-                //this.k--;
+                this.k--;
 
             }
 
