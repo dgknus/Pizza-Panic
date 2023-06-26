@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 5f5e42066fd74b041aaa7f24b4e34fb5
+=======
+guid: 4d6a321b0de81874ba6938fcfe16a812
+>>>>>>> parent of 22517ee (panel)
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
