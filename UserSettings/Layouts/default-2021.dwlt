@@ -48,7 +48,11 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
+<<<<<<< Updated upstream
   controlID: 96
+=======
+  controlID: 131
+>>>>>>> Stashed changes
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -66,8 +70,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1465
     y: 0
+<<<<<<< Updated upstream
     width: 455
     height: 947
+=======
+    width: 364
+    height: 722.8
+>>>>>>> Stashed changes
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
@@ -92,8 +101,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< Updated upstream
     width: 361
     height: 561
+=======
+    width: 288.8
+    height: 428
+>>>>>>> Stashed changes
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
@@ -223,7 +237,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 17
+  controlID: 132
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +262,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 18
+  controlID: 133
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -266,8 +280,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 361
     y: 0
+<<<<<<< Updated upstream
     width: 1104
     height: 561
+=======
+    width: 883.2
+    height: 428
+>>>>>>> Stashed changes
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
@@ -317,22 +336,37 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< Updated upstream
     - Assets/MainProject/Scripts
+=======
+    - Assets/Kits/ExtraHouseKit/House Interior/Prefabs
+>>>>>>> Stashed changes
     m_Globs: []
     m_OriginalText: pain
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
+<<<<<<< Updated upstream
   - Assets/MainProject/Scripts
+=======
+  - Assets/Kits/ExtraHouseKit/House Interior/Prefabs
+>>>>>>> Stashed changes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\dgknu\Documents\GitHub\Pizza-Panic
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< Updated upstream
     scrollPos: {x: 0, y: 139}
     m_SelectedIDs: 94cf0000
     m_LastClickedID: 53140
     m_ExpandedIDs: 00000000e4aa00003eab000042ab00004eab000050ab000052ab000054ab000056ab000000ca9a3b
+=======
+    scrollPos: {x: 0, y: 882.2}
+    m_SelectedIDs: 78ac0000
+    m_LastClickedID: 44152
+    m_ExpandedIDs: 00000000bcab0000beab0000c0ab0000c2ab0000c4ab0000c6ab0000c8ab0000caab0000ccab0000ceab0000d0ab0000d2ab0000d4ab0000d6ab0000d8ab0000daab0000dcab0000deab0000e0ab0000e2ab000056ac000070ac000080b1000000ca9a3bffffff7f
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +394,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< Updated upstream
     m_ExpandedIDs: 00000000e4aa0000
+=======
+    m_ExpandedIDs: 00000000bcab0000beab0000c0ab0000c2ab0000c4ab0000c6ab0000c8ab0000caab0000ccab0000ceab0000d0ab0000d2ab0000d4ab0000d6ab0000d8ab0000daab0000dcab0000deab0000e0ab0000e2ab0000
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -412,7 +450,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 120}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
@@ -487,24 +525,31 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
+<<<<<<< Updated upstream
       scrollPos: {x: 0, y: 128}
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: d4f8ffff08fbffff025c000012600000bc6100001a67000020680000a66b0000ec6b00009e6c0000526d0000586f00004c710000e0760000e27a0000
+=======
+      scrollPos: {x: 0, y: 32}
+      m_SelectedIDs: 428afdff
+      m_LastClickedID: -161214
+      m_ExpandedIDs: 6887feff82fffeffa46affff0a73ffff6088ffff0efbffff7e5d000050620000286c00008c760000fa00010016050100d6050100d00b0100700f0100
+>>>>>>> Stashed changes
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Panel
+        m_OriginalName: Panel
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -38236
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -739,9 +784,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< Updated upstream
     m_Target: {x: -19.07073, y: 18.201103, z: 4.950115}
     speed: 2
     m_Value: {x: -19.07073, y: 18.201103, z: 4.950115}
+=======
+    m_Target: {x: -17.7093, y: 14.60334, z: -1.8598255}
+    speed: 2
+    m_Value: {x: -17.7093, y: 14.60334, z: -1.8598255}
+>>>>>>> Stashed changes
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -788,9 +839,15 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< Updated upstream
     m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
     m_Value: {x: -0.000000014901161, y: -0.000000014901161, z: 0.0000000018626451, w: -1}
+=======
+    m_Target: {x: -0.002524576, y: 0.9974937, z: -0.046729017, w: -0.054316755}
+    speed: 2
+    m_Value: {x: -0.0024429562, y: 0.99749595, z: -0.0452297, w: -0.05431685}
+>>>>>>> Stashed changes
   m_Size:
     m_Target: 0.9065827
     speed: 2
@@ -868,10 +925,17 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< Updated upstream
     m_HBaseRangeMin: -551
     m_HBaseRangeMax: 551
     m_VBaseRangeMin: -259.5
     m_VBaseRangeMax: 259.5
+=======
+    m_HBaseRangeMin: -352.48
+    m_HBaseRangeMax: 352.48
+    m_VBaseRangeMin: -162.8
+    m_VBaseRangeMax: 162.8
+>>>>>>> Stashed changes
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -888,21 +952,36 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
+<<<<<<< Updated upstream
       y: 21
       width: 1102
       height: 519
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 551, y: 259.5}
+=======
+      y: 0
+      width: 881.2
+      height: 407
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 440.6, y: 203.5}
+>>>>>>> Stashed changes
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< Updated upstream
       x: -551
       y: -259.5
       width: 1102
       height: 519
+=======
+      x: -440.6
+      y: -203.5
+      width: 881.2
+      height: 407
+>>>>>>> Stashed changes
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1102, y: 540}
