@@ -4,30 +4,32 @@ using UnityEngine;
 
 public class RayTrace : MonoBehaviour
 {
-
     [SerializeField] string targetObject;
-    [SerializeField] GameObject passwordPanel; 
+    [SerializeField] GameObject passwordPanel;
     public Camera camera;
+    private bool isActive = false; // Track the activation state
 
-    // Update is called once per frame
     void Update()
     {
-        Ray ray = camera.ViewportPointToRay(new Vector3(0.5f,0.5f,0f));
-        RaycastHit raycasthit;
+        Ray ray = camera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
+        RaycastHit raycastHit;
 
-        if(Physics.Raycast(ray, out raycasthit) ){
-
-            if(Input.GetMouseButtonDown(0)){
-
-                if(raycasthit.transform.name == targetObject){
-                    passwordPanel.SetActive(true);
-
+        if (Physics.Raycast(ray, out raycastHit))
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                if (raycastHit.transform.name == targetObject)
+                {
+                    isActive = !isActive; // Toggle the activation state
+                    passwordPanel.SetActive(isActive);
                 }
             }
-
-
-
-
         }
     }
 }
+
+
+
+
+
+
