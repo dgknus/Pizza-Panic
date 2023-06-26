@@ -10,8 +10,11 @@ public class Timer : MonoBehaviour
     [SerializeField] private Text timerText;
     [SerializeField] private float currentTime;
     [SerializeField] private float duration;
-
     [SerializeField] public int pizzaNum;
+
+    [SerializeField] public CollisionDetection cd;
+
+    public int val;
 
     public GameObject healthBarContainer; // Reference to the HealthBarContainer GameObject
 
@@ -20,6 +23,7 @@ public class Timer : MonoBehaviour
         currentTime = duration;
         timerText.text = currentTime.ToString();
         StartCoroutine(UpdateTime());
+        val = cd.k;
     }
 
     private IEnumerator UpdateTime()
@@ -28,13 +32,13 @@ public class Timer : MonoBehaviour
         {
             timerImg.fillAmount = Mathf.InverseLerp(0, duration, currentTime);
             timerText.text = currentTime.ToString();
+            
+            val = cd.k;
+            print(val);
 
             // Check if the timer reached 60 seconds
-            if (currentTime % 60 == 0)
-            {
-                // Call a function to handle pizza visibility based on the elapsed time
-                UpdateHealthBarFromTimer(currentTime);
-            }
+            UpdateHealthBarFromTimer(currentTime, val);
+            
 
             yield return new WaitForSeconds(1f);
             currentTime--;
@@ -43,9 +47,9 @@ public class Timer : MonoBehaviour
         yield return null;
     }
 
-    private void UpdateHealthBarFromTimer(float currentTime)
+    private void UpdateHealthBarFromTimer(float currentTime, int k)
     {
-        int visiblePizzas =  1 + Mathf.FloorToInt(currentTime / 60); // Calculate the number of pizzas to be visible based on elapsed time
+        int visiblePizzas =  k + Mathf.FloorToInt(currentTime / 60);  // Calculate the number of pizzas to be visible based on elapsed time
         pizzaNum = visiblePizzas;
         UpdateHealthBar(visiblePizzas); // Call the existing function to update the health bar with the updated pizza count
     }
@@ -62,6 +66,7 @@ public class Timer : MonoBehaviour
                 pizza.SetActive(false); // Disable the pizza GameObject
         }
     }
-
+ 
+ 
   
 }
