@@ -9,7 +9,9 @@ namespace SojaExiles
     {
         public CharacterController controller;
 
-        public float speed = 5f;
+        public Timer timer;
+
+        public float speed = 0.6f;
         public float gravity = -15f;
 
         Vector3 velocity;
@@ -24,7 +26,8 @@ namespace SojaExiles
         // Update is called once per frame
         void Update()
         {
-
+            speed = 0.6f;
+            speed = speed * timer.pizzaNum;
             float x = Input.GetAxis("Horizontal");
             float z = Input.GetAxis("Vertical");
 
